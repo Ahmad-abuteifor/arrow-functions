@@ -200,9 +200,11 @@ console.log(joe.scopeArrow());
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
 
-// ( i think its equal  the global object )
+// (The constructor function (joe object).
+ 
 //
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//(for the all Window and also it equal the value of the outer function)
+//(The global window object.
+
 // 3. Explain why "this" is different when an arrow function is used.
-//( in the regular function this value is dynamic and its depend in how the function is invoked,,,, for the arrow function  doesnt define its own execution  context )
+//( in the regular function this value is dynamic and its depend in how the function is invoked,,,, for the arrow function  doesnt define its own execution  context so when using (this ) it goning to be for the all class or object but for regular function it will be the same function  )
